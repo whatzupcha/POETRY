@@ -1,0 +1,180 @@
+
+body {
+    
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 100%;
+    color: black;
+    background-color: #f8f8f8;
+    background-image: url("https://img.freepik.com/free-vector/double-moss-rose-beige-background_53876-99474.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+.drew{
+    padding: 50px;
+  
+}
+
+.drew .a1{
+    max-width: 80%;
+    padding-top: 50px;
+    
+}
+
+
+p{
+    text-align: center;
+   
+    font-size: 25px;
+}
+ul{
+    display: absolute;
+    padding-left: 13%;
+
+}
+li {
+    list-style-image: url("1.png");
+    font-size: 15px;
+    line-height: 1.6em;
+   
+}
+
+table {
+    border-spacing: 0px;
+    color: black;
+    display: absolute;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    height: 300px;
+}
+
+th, td {
+    padding: 5px 35px 5px 10px;
+    border-spacing: 0px;
+    font-size: 90%;
+    margin: 0px;
+}
+        
+th, td {
+    text-align: left;
+    background-color: #DDB5A9;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;     
+    font-weight: 300px;
+}
+
+tr.head th {
+    font-size: 15px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+    text-align: center;
+    text-shadow: -1px -1px 1px #666666;
+    letter-spacing: 0.15em;
+}
+
+td {
+    text-shadow: 1px 1px 1px #ffffff;
+}
+
+tr.even td, tr.even th {
+    background-color: #DDB5A9;
+}
+
+tr.head th:first-child {
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+}
+
+tr.head th:last-child {
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-right-radius: 5px;
+}
+
+fieldset {
+    display: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 480px;
+    margin-top: 20px;
+    border: 1px solid #d6d6d6;
+    background-color: #BFCEE1;
+    line-height: 1.6em;
+    height: 200px;
+}
+fieldset p{
+    color: black;
+}
+
+legend {
+    font-style: italic;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    width: 120px;
+    border: 1px solid #0d0909;
+    padding: 2px;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="text"]:hover {
+    background-color: #d0e2f0;
+    border: 1px solid #999999;
+}
+
+input[type="submit"] {
+    border: 1px solid #006633;
+    background-color:  green;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #006633;
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.title {
+    float: left;
+    width: 160px;
+    clear: left;
+    color: black;
+}
+
+.title1 {
+    float: left;
+    width: 50%;
+    clear: left;
+    color: black;
+}
+
+#location {
+    margin-right: 90px;
+}
+
+label{
+    color: black;
+}
+
+.submit {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5%;
+
+}
